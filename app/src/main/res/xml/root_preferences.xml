@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="server_address"
+        android:title="@string/server_address"
+        android:summary="Address for the endpoint server"
+        android:defaultValue=""
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <EditTextPreference
+        android:key="server_port"
+        android:title="@string/server_port"
+        android:summary="Which port on the address to use"
+        android:defaultValue=""
+        android:inputType="number"
+        android:singleLine="true" />
+
+</PreferenceScreen>
